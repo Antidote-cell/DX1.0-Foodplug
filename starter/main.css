@@ -112,7 +112,9 @@ header{
     width: 50%;
 }
 
-
+.header-icons{
+    margin-left: 10px;
+}
 
 
 /* Header section ends here  */
