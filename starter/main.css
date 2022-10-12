@@ -6,6 +6,15 @@
     box-sizing:border-box;
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+
+}
+
 /* page resets ends here */
 
 /* reuseables starts here */
@@ -40,11 +49,45 @@ header{
     border: 3px solid tomato;
 }
 
+.nav-mobile{
+    /* border: 3px solid black; */
+    display: none;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: var(--main-color);
+}
+
+.mobile-logo{
+    /* border: 3px solid tomato; */
+    display: flex;
+    color: var(--white-color);
+    align-items: center;
+}
+
+.mobile-logo-container{
+    border: 3px var(--white-color);
+    font-size: 25px;
+    padding: 5px;
+}
+
+.mobile-logo span{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 10px;
+}
+
+.hamburger{
+    border: 3px solid tomato;
+    height: 40px;
+    width: 40px;
+}
+
 .nav-desktop{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
     align-items: center;
-    position: fixed;
+    background: var(--white-color);
+    position: flex;
     left: 0;
     top: 0;
     width: 100%;
@@ -69,8 +112,9 @@ header{
 
 .desktop-link-holder{
     display: flex;
-    border: 3px solid tomato;
-    align-items: center;
+    /* border: 3px solid tomato; */
+
+    align-items: stretch;
 }
 
 .desktop-link-holder ul{
@@ -93,6 +137,7 @@ header{
 
 .header-banner-section{
     padding-top: 130px;
+    padding-bottom: 30px;
     min-height: 450px;
     border: 3px solid black;
     background: url("./img/banner.jpg");
@@ -115,6 +160,47 @@ header{
 .header-icons{
     margin-left: 10px;
 }
+
+.header-text-container h1 {
+    color: var(--main-color-dark);
+    font-size: 45px;
+    line-height: 1.2;
+    
+}
+
+.header-text-container p {
+    color: var(--text-color);
+    margin: 20px 0;
+    line-height: 1.5;
+}
+
+.header-text-container button {
+    margin-right: 10px;
+}
+
+.header-counter-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    background: var(--main-color);
+    color: var(--white-color);
+}
+
+.counter{
+    text-align: center;
+    width: 180px;
+}
+
+.counter h2{
+    font-size: 30px;
+}
+
+.counter p{
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+
 
 
 /* Header section ends here  */
