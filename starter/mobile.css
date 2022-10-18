@@ -1,5 +1,5 @@
 @media screen and (max-width:855px) {
-
+/* Header section starts here  */
     .nav-mobile{
         display: flex;
     }
@@ -9,11 +9,39 @@
     }
 
     .header-banner-section{
-        padding: 80px 0 30px 0;
+        padding: 120px 0 30px 0;
         background-position: center;
     }
 
     .header-text-container{
         min-width: 100%;
     }
+/* Header section ends here  */
+
+/* Aboutus section starts here  */
+.aboutus-container{
+    justify-content: center;
+}
+.aboutus-text-holder{
+    min-width: 100%;
+}
+
+.aboutus-image-holder{
+    min-width: 95%;
+    margin: 20px 0;
+}
+
+/* Aboutus section ends here  */
+
+/* explorefoods section starts here  */
+.explorefoods-card{
+    margin: 20px 0;
+}
+
+/* explorefoods section ends here  */
+
+.faq-items{
+    min-width: 100%;
+}
+
 }
